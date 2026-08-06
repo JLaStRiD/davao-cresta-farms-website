@@ -1,1 +1,166 @@
+/* Davao Cresta Farms Website Style */
 
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #f7f8f2;
+    color: #333;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* Header */
+
+header {
+    background: #2e6b3a;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+
+header p {
+    font-size: 18px;
+}
+
+
+/* Hero Section */
+
+.hero {
+    background: linear-gradient(
+        rgba(46,107,58,0.85),
+        rgba(46,107,58,0.85)
+    );
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+
+.hero h3 {
+    font-size: 28px;
+    color: #ffd54a;
+}
+
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 30px;
+    background: #ffd54a;
+    color: #333;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+
+
+/* Sections */
+
+section {
+    padding: 45px 0;
+}
+
+
+section h2 {
+    color: #2e6b3a;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+/* Product Card */
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.card h3 {
+    color: #e67e22;
+    font-size: 28px;
+}
+
+
+
+/* Lists */
+
+ul {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+li {
+    margin: 12px 0;
+}
+
+
+
+/* Contact */
+
+#contact {
+    background: #eaf3e8;
+    text-align: center;
+}
+
+
+
+/* Footer */
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* Mobile Responsive */
+
+@media(max-width:768px){
+
+    header h1 {
+        font-size: 28px;
+    }
+
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+
+    .hero h3 {
+        font-size: 22px;
+    }
+
+  }
